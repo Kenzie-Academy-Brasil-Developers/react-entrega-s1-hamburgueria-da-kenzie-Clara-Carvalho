@@ -179,9 +179,9 @@ span{
 .removeAll{
   background: #E0E0E0;
 
-
-border: 2px solid #E0E0E0;
-border-radius: 8px;
+  height: 300%;
+  border: 2px solid #E0E0E0;
+  border-radius: 8px;
 }
 
 
@@ -208,16 +208,22 @@ border-radius: 8px;
     border: none;
     cursor: pointer;
   }
+
   
   .search{
-    margin-left: 32%;
+    display: flex;
+    justify-content:center;
+    width: 100%;
     margin-top:0;
   }
   
-  
+  .form-control{
+    width:40%;
+    margin-left: 5%;
+  }
   
   .btn--search{
-   
+    width: 30%;
     background-color:#27AE60;
     border: 2px solid #27AE60;
     
@@ -227,13 +233,13 @@ border-radius: 8px;
   }
 
   .app--header{
-    margin-top:15px;
+   
   }
   
   .title{
     font-weight: bold;
     font-size: 18px;
-    margin-left: 8%;
+    margin-left: 35%;
     margin-top: 6%;
   }
   
@@ -287,12 +293,12 @@ border-radius: 8px;
   }
   
   .button--add{
-    margin-left: 0;
+    margin-left: 5%;
     margin-bottom: 0;
     background-color:#27AE60;
     border: 2px solid #27AE60;
     border-radius: 8px;
-    width:100%;
+    width:50%;
     height:10%;
     color: #fff;
     cursor: pointer;
